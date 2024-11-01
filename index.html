@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban</title>
+</head>
+<body>
+    <main class="kanban">
+        <!-- COLUNA 1 -->
+        <div class="kanban_coluna" data-id="1"> 
+            <div class="kanban_title">
+                <h2>Pendente</h2>
+                <button class="adicionar_nota">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban_cards">
+                <div class="kanban_card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card_title">
+                        <textarea class="kanban_text"></textarea>
+                    </p>
+                    <div class="card_infos">
+                        <div class="card_icons">
+                            <p><i class="fa-regular fa-comment"></i> 1</p>
+                            <p><i class="fa-solid fa-paperclip"></i> 1</p>
+                            <button class="remover_nota">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="user">
+                            <img src="assets/img/icon_girl.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="kanban_coluna" data-id="2"> 
+            <div class="kanban_title">
+                <h2>Em Front-End</h2>
+                <button class="adicionar_nota">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban_cards">
+                <div class="kanban_card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card_title">
+                        <textarea class="kanban_text"></textarea>
+                    </p>
+                    <div class="card_infos">
+                        <div class="card_icons">
+                            <p><i class="fa-regular fa-comment"></i> 1</p>
+                            <p><i class="fa-solid fa-paperclip"></i> 1</p>
+                            <button class="remover_nota">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="user">
+                            <img src="assets/img/icon_girl.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="kanban_coluna" data-id="3"> 
+            <div class="kanban_title">
+                <h2>Em Back-End</h2>
+                <button class="adicionar_nota">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban_cards">
+                <div class="kanban_card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card_title">
+                        <textarea class="kanban_text"></textarea>
+                    </p>
+                    <div class="card_infos">
+                        <div class="card_icons">
+                            <p><i class="fa-regular fa-comment"></i> 1</p>
+                            <p><i class="fa-solid fa-paperclip"></i> 1</p>
+                            <button class="remover_nota">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="user">
+                            <img src="assets/img/icon_girl.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUNA 4 -->
+        <div class="kanban_coluna" data-id="4"> 
+
+            <div class="kanban_title">
+            
+                <h2>Em Teste</h2>
+            
+                <button class="adicionar_nota">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            
+            </div>
+            
+            <div class="kanban_cards">
+                <div class="kanban_card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card_title">
+                        <textarea class="kanban_text"></textarea>
+                    </p>
+                    <div class="card_infos">
+                        <div class="card_icons">
+                            <p><i class="fa-regular fa-comment"></i> 1</p>
+                            <p><i class="fa-solid fa-paperclip"></i> 1</p>
+                            <button class="remover_nota">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="user">
+                            <img src="assets/img/icon_girl.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUNA 5 -->
+        <div class="kanban_coluna" data-id="5"> 
+
+            <div class="kanban_title">
+                <h2>Concluído</h2>
+
+                <button class="adicionar_nota">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            
+            <div class="kanban_cards">
+                <div class="kanban_card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card_title">
+                        <textarea class="kanban_text"></textarea>
+                    </p>
+                    <div class="card_infos">
+                        <div class="card_icons">
+                            <p><i class="fa-regular fa-comment"></i> 1</p>
+                            <p><i class="fa-solid fa-paperclip"></i> 1</p>
+                            <button class="remover_nota">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="user">
+                            <img src="assets/img/icon_girl.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
